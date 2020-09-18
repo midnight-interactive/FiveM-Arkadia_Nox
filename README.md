@@ -1,4 +1,4 @@
-I'm only updating and modifying some of these mods. Original Readme as follows -- TJ
+I'm only updating and modifying some of these mods. Original (Translated) Readme as follows -- TJ
 
 
 FiveM-Arkadia_
