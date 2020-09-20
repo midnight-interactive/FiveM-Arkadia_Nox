@@ -1,27 +1,24 @@
-
-
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>FiveM | Loadingscreen</title>
+    <title>MidnightRP | Loadingscreen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="keks.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
 </head>
 <body>
     
-    <h1 class="enable_music">Utilisez la <strong>barre d'espace</strong> pour faire mettre en pause la musique</h1>
+    <h1 class="enable_music">Press <strong>SPACE</strong> to pause the music</h1>
 
-    <h1 class="servername"><strong>Arkadia</strong> RôlePlay</h1>
-    <h1 class="undertext">Chargement en cours...</h1>
-    
+    <h1 class="servername">Midnight<strong>RP</strong></h1>
+    <h1 class="undertext">Loading in progress...</h1>
+    <div id="factDisplay" ></div>
     <div class="overcast"></div>
     <div class="progress"></div>
 
     <audio id="leson" src="music/music.ogg" autoplay="true" hidden="true" loop="true"/>
-    <script>
-
+	<script>
     var play = false;
     var myAudio = document.getElementById("leson");
     
@@ -43,6 +40,24 @@
     }
 
     window.addEventListener("keydown", onKeyDown, false);
+    
+    
+    (function newFact() {
+        var bgs = [
+            'https://i.imgur.com/xws8SM5.jpg',
+            'https://i.imgur.com/ScWaYcp.jpg'
+        ];
+        var facts = [
+            'Place a tip for your server here.',
+			'Place another tip here..',
+			'A third tip.',
+        ];
+        var randomfact = Math.floor(Math.random() * facts.length);
+        var randombg = Math.floor(Math.random() * bgs.length);
+        document.getElementById('factDisplay').innerHTML = facts[randomfact];
+        document.body.style.background = "#f3f3f3 url('" + bgs[randombg] + "') no-repeat center center cover ";
+    })();
+	
     </script>
 
 </body>
