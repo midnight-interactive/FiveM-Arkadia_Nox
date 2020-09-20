@@ -1,0 +1,8 @@
+[en]
+
+This is the same as ItsikNox's panzar-load, except this one adds support for multiple backgrounds and loading screen tips. 
+Add background links under 'var bgs' and tips under 'var facts'.
+
+[fr]
+C’est la même chose que le panzar-load d’ItsikNox, sauf que celui-ci ajoute la prise en charge pour plusieurs arrière-plans et des conseils d’écran de chargement. 
+Ajoutez des liens d’arrière-plan sous 'var bgs' et des conseils sous 'var facts'.
