@@ -1,10 +1,10 @@
 # Screenshots
 
-![Lamborghini](lambo.png)
+![Lamborghini](screenshots/lambo.png)
 
-![Audi](audi.png)
+![Audi](screenshots/audi.png)
 
-![Mustang](mustang.png)
+![Mustang](screenshots/mustang.png)
 
 
 ## [en]
